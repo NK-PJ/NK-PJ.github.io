@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная страница</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-color: #eaf9e7;
+			color: #013237;
+			padding: 20px;
+			line-height: 1.6;
+		}
+		.container{
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: #c0e6ba;
+			padding: 20px;
+			border-radius: 15px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+		}
+		header {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.avatar {
+			width: 250px;
+			border-radius: 50%;
+			border: 5px solid #4ca771;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+			margin: 0 auto 20px;
+
+		}
+		h1 {
+			color: #03c03c;
+			font-size: 2.5em;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		}
+		section {
+			max-resolution: 20px;
+			padding: 20px;
+			background-color: #25f56a;
+			border-radius: 30px;
+		}
+		h2 {
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			border-bottom: 3px dashed;
+			padding-bottom: 10px;
+			margin-top: 0;
+		}
+		.hobby ul {
+			list-style-type: '🌟';
+			padding-left: 20px;
+		}
+		.hobby li {
+			margin-bottom: 10px;
+			font-size: 1.1em;
+		}
+		.social-links {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+		.social-links a{
+			display: inline-block;
+			background-color: #c0e6ba;
+			color: #013237;
+			text-decoration: none;
+			border-radius: 50px;
+			padding: 12px 25px;
+		}
+		.social-links a:hover {
+			background-color: #9bd692;
+			transform: translate(-3px);
+			
+		}
+		footer {
+			text-align: center;
+			margin-top: 30px;
+			font-style: italic;
+			color: #888;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="img/avatar1.jpg" class="avatar" alt="">
+			<h1>Привет, я Кирилл!</h1>
+		</header>
+		<section class="about">
+			<H2>Обо мне</H2>
+			<p>Привет. Меня зовут Кирилл!</p>
+			<p>Учусь в школе №27 в 7 классе в городе Сыктывкар, Эжвинский район, на хорошие оценки. Играю в видеоигры. Любимая еда — роллы. Также неплохо знаю английский.</p>
+		</section>
+		<section class="hobby">
+			<h2>Мои увлечения</h2>
+			<ul>
+				<li>Создание сайтов в школе Coddy</li>
+				<li>3D-моделированием (2 курс)</li>
+				<li>Спорт</li>
+			</ul>
+		</section>
+		<section class="social">
+			<h2>Я в соц сетях</h2>
+			<div class="social-links">
+				<a href="#">ВК</a>
+				<a href="#">Telegram</a>
+				<a href="#">Github</a>
+			</div>
+		</section>
+		<footer>
+			Создано на первых занятиях в Coddy, 2025
+		</footer>
+	</div>
+</body>
+</html>
